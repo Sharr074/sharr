@@ -1,4 +1,82 @@
 body {
+    background: #0f363d !important;
+}
+
+h1,h2,h3,h4,h5,h5,p,span {
     color: #FFFFFF;
-    background: #0f363d;
+}
+
+h1 {
+    font-size: 70px !important; 
+}
+
+p {
+    font-size: 18px !important;
+}
+
+.intro-box {
+    display: table !important;
+}
+
+.intro-text {
+    display: table-cell;
+    align-items: center;
+}
+
+.intro-text p {
+    padding: 10px 0 40px;
+}
+
+a.readmore { 
+    color: #0f2024 !important;
+    background: rgba(255, 255, 255, 0.859) !important;
+    padding: 10px 40px;
+    border-radius: 0 !important;
+    font-weight: 700;
+}
+
+a.readmore:hover {
+    background: #FFFFFF !important;
+    transform: skew(6deg); 
+    -webkit-animation-timing-function: ease 2s;
+}
+
+.intro-pic { 
+    /* transform: skew(-3deg); */
+    position: relative;
+    z-index: 1;
+    -webkit-animation: floatBubble 2s;
+    animation-fill-mode: forwards;  
+  }
+
+@-webkit-keyframes floatBubble{
+ 0%{
+        top:0;
+        -webkit-animation-timing-function: ease-in;
+   }
+
+   33% {
+      top: -50px;
+      -webkit-animation-timing-function: ease-out;
+   }
+  66%{
+        top:0;
+        -webkit-animation-timing-function: ease-in;
+   }
+  
+  100%{
+        top:-50px;
+        -webkit-animation-timing-function: ease-in;
+   }
+}
+
+#primary-nav {
+    background: #0f2024 !important; 
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+#primary-nav ul li a {
+    color: #FFFFFF !important;
 }
