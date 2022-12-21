@@ -28,15 +28,6 @@ p {
     font-size: 18px !important;
 }
 
-.intro-box {
-    display: table !important;
-}
-
-.intro-text {
-    display: table-cell;
-    align-items: center;
-}
-
 .intro-text p {
     padding: 10px 0 40px;
 }
@@ -174,7 +165,7 @@ a.readmore:hover {
   }
   @media only screen and (min-width: 768.1px) and (max-width: 991px) {
     .portfolio-grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }		
     }
   .portfolio-grid .portfolio {
@@ -313,4 +304,38 @@ p.footer-text:after {
 .powered, .powered p, .powered span { 
   text-align: right; 
   color: #daa494d7;
+}
+
+@media only screen and (min-width: 1000px) {
+  .intro-box {
+    display: table !important;
+  }
+  .intro-text {
+    display: table-cell;
+    align-items: center; 
+  }
+}
+
+@media only screen and (max-width: 999px) { 
+  .intro-box .col-md-6 { 
+    display: block !important;
+    width: 100% !important;
+  }
+  .intro-text { 
+    display: block !important;
+    order: 2; 
+  }
+  #primary-nav ul li.nav-item.active a, 
+  .intro-text p, 
+  .portfolio-tab ul li, 
+  .portfolio .text-category, 
+  .portfolio .template-btn {
+    font-size: 2.5rem !important;
+  }
+  .label-text h3 {
+    font-size: 3rem !important;
+  }
+  .portfolio .template-btn {
+    padding: 15px 100px !important;
+  }
 }
