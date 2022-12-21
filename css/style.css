@@ -330,7 +330,7 @@ p.footer-text:after {
   .portfolio-tab ul li, 
   .portfolio .text-category, 
   .portfolio .template-btn, 
-  footer a {
+  .footer-text {
     font-size: 2.5rem !important;
   }
   .label-text h3 {
