@@ -15,5 +15,7 @@
 		}
 	};
 	// Run the show!
-	filterList.init();
-});	
+	filterList.init();	
+});
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
