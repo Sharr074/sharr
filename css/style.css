@@ -329,7 +329,8 @@ p.footer-text:after {
   .intro-text p, 
   .portfolio-tab ul li, 
   .portfolio .text-category, 
-  .portfolio .template-btn {
+  .portfolio .template-btn, 
+  footer a {
     font-size: 2.5rem !important;
   }
   .label-text h3 {
@@ -337,5 +338,8 @@ p.footer-text:after {
   }
   .portfolio .template-btn {
     padding: 15px 100px !important;
+  }
+  footer p.powered {
+    font-size: 2rem !important;
   }
 }
