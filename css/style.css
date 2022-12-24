@@ -398,7 +398,7 @@ p.footer-text:after {
 }
 .progress {
   height: 8px !important;
-  padding-left: 0 !important;
+  padding: 0 !important;
 }
 .progress-bar {
   height: 8px;
