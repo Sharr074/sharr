@@ -2,12 +2,14 @@ body {
     background: #0f363d !important;
 }
 
-h1,h2,h3,h4,h5,h6,p,span {
+h1,h2,h3,h4,h5,h6,p,span,ul,ol {
     color: #FFFFFF;
 }
 
 h1 {
     font-size: 70px !important; 
+    margin-top: 100px !important; 
+    margin-bottom: 20px !important;
 }
 
 h2 {
@@ -15,21 +17,33 @@ h2 {
   padding: 60px 0 20px;
 }
 
-h2::after {
+/* h2::after {
   content: "";
-  width: 100%;
-  height: 1px;
+  width: auto;
+  height: 3px;
   background: #daa494d7;
   display: block;
   margin-top: 20px;
-}
+} */
 
 p {
     font-size: 18px !important;
 }
 
+a {
+  color: #FFFFFF !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#primary-nav ul li a {
+  text-decoration: none !important;
+}
+
 .intro-text p {
-    padding: 10px 0 40px;
+    padding: 10px 0 0;
 }
 
 a.readmore { 
@@ -38,6 +52,7 @@ a.readmore {
     background: #DAA494 !important;
     padding: 10px 40px;
     border-radius: 0 !important;
+    margin-top: 40px;
 }
 
 a.readmore:hover {
@@ -87,6 +102,17 @@ a.readmore:hover {
 }
 
 #primary-nav ul li.nav-item.active a {
+  color: #DAA494 !important;
+}
+
+#primary-nav ul.download-flex {
+  list-style-type: none !important;
+}
+#primary-nav .nav, 
+#primary-nav .download-flex {
+  display: inline-flex !important;
+}
+#primary-nav .download-flex li a:hover {
   color: #DAA494 !important;
 }
 
@@ -325,7 +351,7 @@ p.footer-text:after {
     display: block !important;
     order: 2; 
   }
-  #primary-nav ul li.nav-item.active a, 
+  #primary-nav ul li a, 
   .intro-text p, 
   .portfolio-tab ul li, 
   .portfolio .text-category, 
@@ -341,5 +367,110 @@ p.footer-text:after {
   }
   footer p.powered {
     font-size: 2rem !important;
+  }
+}
+
+/* Experience page */
+.experience-text {
+  border-left: 2px solid #DAA494;
+  margin: 0 0 0 17px;
+  padding: 0 0 40px 0;
+}
+
+.experience-text p span { 
+  font-size: 25px !important;
+}
+
+.experience i.fa.fa-circle { 
+  font-size: 14px !important;
+  color: #DAA494 !important;
+  margin-bottom: -20px;
+}
+
+/* Skills page */
+.skills {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px !important;
+}
+.skills p {
+  margin: 0 !important
+}
+.progress {
+  height: 8px !important;
+  padding-left: 0 !important;
+}
+.progress-bar {
+  height: 8px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-striped .progress-bar {
+  background-color: #DAA494;
+  background-image: linear-gradient(45deg, #DAA494 25%, transparent 25%, transparent 50%, #DAA494 50%, #DAA494 75%, transparent 75%, transparent);
+}
+
+.wordpress .progress-striped .progress-bar, 
+.html .progress-striped .progress-bar, 
+.css .progress-striped .progress-bar {
+  width: 100%;
+  animation: progressAnimationStrike 1s;
+}
+
+@keyframes progressAnimationStrike {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.jquery .progress-striped .progress-bar, 
+.bootstrap .progress-striped .progress-bar {
+  width: 90%;
+  animation: progressAnimationStrike2 1s;
+}
+
+@keyframes progressAnimationStrike2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+.javascript .progress-striped .progress-bar, 
+.photoshop .progress-striped .progress-bar, 
+.php .progress-striped .progress-bar {
+  width: 80%;
+  animation: progressAnimationStrike3 1s;
+}
+
+@keyframes progressAnimationStrike3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.mysql .progress-striped .progress-bar, 
+.figma .progress-striped .progress-bar {
+  width: 50%;
+  animation: progressAnimationStrike4 1s;
+}
+
+@keyframes progressAnimationStrike4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
   }
 }
