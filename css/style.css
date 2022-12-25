@@ -88,6 +88,17 @@ a.readmore:hover {
    }
 }
 
+/* Navigation */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background: none !important;
+}
+.navbar-brand {
+  font-size: 2rem !important;
+}
+.navbar-toggler {
+  background: #FFF !important;
+  font-size: 2rem !important;
+}
 #primary-nav {
   width: 100%;
     background: #0f2024 !important; 
@@ -101,6 +112,10 @@ a.readmore:hover {
     font-weight: bold !important;
 }
 
+#primary-nav ul li a:hover {
+  color: #daa494a8 !important
+}
+
 #primary-nav ul li.nav-item.active a {
   color: #DAA494 !important;
 }
@@ -110,10 +125,17 @@ a.readmore:hover {
 }
 #primary-nav .nav, 
 #primary-nav .download-flex {
-  display: inline-flex !important;
+  display: inline-flex;
+  margin: 0 !important;
+}
+#primary-nav .download-flex li a {
+ border: 1px solid #DAA494;
+ padding: 10px 20px; 
+ border-radius: 30px;
 }
 #primary-nav .download-flex li a:hover {
-  color: #DAA494 !important;
+  background: #DAA494;
+  color: #FFFFFF !important
 }
 
 /* Portfolio section */
@@ -332,7 +354,10 @@ p.footer-text:after {
   color: #daa494d7;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px) { 
+  .navbar-brand {
+    display: none !important;
+  }
   .intro-box {
     display: table !important;
   }
@@ -340,9 +365,31 @@ p.footer-text:after {
     display: table-cell;
     align-items: center; 
   }
+  .experience-text p span {
+    font-size: 25px !important;
+  } 
 }
 
 @media only screen and (max-width: 999px) { 
+  p,ul,li,a,span {
+    font-size: 2.5rem !important;
+  }
+  .navbar-brand {
+    font-size: 3rem !important;
+  }
+  li.nav-item {
+      padding: 10px 0;
+  }
+  #primary-nav ul.download-flex {
+    padding: 20px 0 40px;
+  }
+  #primary-nav .download-flex li a {
+    padding: 20px 40px;
+  }
+  #primary-nav ~ .container {
+    padding-top: 60px;
+  }
+
   .intro-box .col-md-6 { 
     display: block !important;
     width: 100% !important;
@@ -377,10 +424,6 @@ p.footer-text:after {
   padding: 0 0 40px 0;
 }
 
-.experience-text p span { 
-  font-size: 25px !important;
-}
-
 .experience i.fa.fa-circle { 
   font-size: 14px !important;
   color: #DAA494 !important;
@@ -394,7 +437,7 @@ p.footer-text:after {
   margin-bottom: 20px !important;
 }
 .skills p {
-  margin: 0 !important
+  margin: 0 !important;
 }
 .progress {
   height: 8px !important;
