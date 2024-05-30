@@ -42,7 +42,11 @@ a {
   text-decoration: none !important;
 }
 
-.intro-text p {
+.row .col-md-6.intro-text {
+  width: 70% !important;
+}
+
+.row .col-md-6.intro-text p {
     padding: 10px 0 0;
 }
 
@@ -59,7 +63,11 @@ a.readmore:hover {
     transform: skew(6deg); 
 }
 
-.intro-pic { 
+.row .col-md-6.intro-pic {
+  margin-top: 100px !important;
+}
+
+.row .col-md-6.intro-pic { 
     /* transform: skew(-3deg); */
     position: relative;
     z-index: 1;
