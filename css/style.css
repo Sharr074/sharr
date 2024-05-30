@@ -517,3 +517,18 @@ p.footer-text:after {
     width: 50%;
   }
 }
+
+.reactjs .progress-striped .progress-bar, 
+.notedjs .progress-striped .progress-bar {
+  width: 20%;
+  animation: progressAnimationStrike4 1s;
+}
+
+@keyframes progressAnimationStrike4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}
