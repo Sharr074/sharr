@@ -442,10 +442,11 @@ p.footer-text:after {
 .skills {
   display: flex;
   align-items: center;
-  margin-bottom: 20px !important;
+  margin-bottom: 20px !important; 
 }
 .skills p {
-  margin: 0 !important;
+  margin: 0 30px !important; 
+  text-align: end;
 }
 .progress {
   height: 8px !important;
@@ -538,5 +539,68 @@ p.footer-text:after {
   }
   to {
     width: 20%;
+  }
+}
+
+/* Contact page */
+.contact .row {
+  width: 100%; 
+  margin: 20px auto; 
+  display: flex; 
+}
+
+.contact .row .col-2 {
+  width: 15%; 
+}
+
+.contact .row .col-10 {
+  width: 60%;
+}
+
+.contact form label {
+  color: #ffffff;
+  font-size: 18px; 
+  padding: 10px 0;
+}
+
+input, textarea { 
+  width: 100%;
+  color: #FFFFFF;
+  background: none; 
+  border: 2px solid #DAA494; 
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+textarea { 
+  height: 200px;
+}
+
+input:focus, textarea:focus { 
+  outline-width: 0;
+  border: 2px solid #FFFFFF;
+}
+
+button {
+  display: block; 
+  border: 2px solid #DAA494; 
+  background: none;
+  color: #FFFFFF; 
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #DAA494; 
+}
+
+/* Mobile View */
+@media (max-width: 576px) { 
+  .contact .row .col-2 {
+    width: 30% !important;
+  }
+  .contact .row .col-10 {
+    width: 70% !important;
   }
 }

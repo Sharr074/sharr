@@ -9,11 +9,12 @@
 
     gtag('config', 'G-3ZM7QVD3G7');
     </script>
-    <title>Education</title>
+    <title>Contact</title>
     <!-- CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
@@ -30,7 +31,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link">Portfolio</a>
+                                  <a href="index.html" class="nav-link">Portfolio</a>
                             </li>
                             <li class="nav-item">
                                 <a href="about.html" class="nav-link">About Me</a>
@@ -38,19 +39,19 @@
                             <li class="nav-item">
                                 <a href="experience.html" class="nav-link">Experience</a>
                             </li>
-                            <li class="nav-item active">
-                                <a href="#" class="nav-link">Education</a>
+                            <li class="nav-item">
+                                <a href="education.html" class="nav-link">Education</a>
                             </li>
                             <li class="nav-item">
                                 <a href="skills.html" class="nav-link">Skills</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="nav-link">Contact</a>
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link">Contact</a>
                             </li>
-                        </ul>
-                        <ul class="download-flex">
+                          </ul>
+                          <ul class="download-flex">
                             <li><a href="images/Myo_Mi_Mi_Sharr-Web_Developer.pdf" download="MyoMiMiSharr_CV" target="_blank">Download CV <i class="fa fa-download"></i></a></li></li>
-                        </ul>
+                          </ul>
                     </div>
                 </div>
             </nav>
@@ -58,28 +59,46 @@
     </div>
 
     <div class="container">
-        <div class="row experience">
-            <h1>Education</h1>
-            <i aria-hidden="true" class="fa fa-circle"></i>
-            <i aria-hidden="true" class="fa fa-circle"></i>
-            <div class="experience-text">
-                <p>2011 - 2012<br>
-                <span>Bachelor of Engineering</span><br>
-                Technological University, Mandalay</p>
-            </div>
-            <i aria-hidden="true" class="fa fa-circle"></i>
-            <div class="experience-text">
-                <p>2007 - 2011<br>
-                <span>Bachelor of Technology</span><br>
-                Technological University, Mandalay</p>
-            </div>
-            <i aria-hidden="true" class="fa fa-circle"></i>
-            <div class="experience-text">
-                <p>October 2022<br>
-                <span>Certificate of Completion WSQ Search Engine Optimisation (SEO) Training Course</span><br>
-                Equinet Academy, Singapore</p>
-            </div>
+        <div class="row contact">
+            <h1>Get in touch</h1>
+            <form action="https://formspree.io/f/xyyrqzeb" method="POST">
+                <div class="row">
+                    <div class="col-2 col-sm-12">
+                        <label>Your name:</label>
+                    </div>
+                    <div class="col-10 col-sm-12">
+                        <input type="text" name="name">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2 col-sm-12">
+                        <label>Your email:</label>
+                    </div>
+                    <div class="col-10 col-sm-12">
+                        <input type="email" name="email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 col-sm-12">
+                        <label>Your message:</label>
+                    </div>
+                    <div class="col-10 col-sm-12">
+                        <textarea name="message"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 col-sm-12">
+                    </div>
+                    <div class="col-10 col-sm-12">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
         </div>
+    </div>
     </div>
     <footer>
     <div class="container">
@@ -88,9 +107,4 @@
     </div>
     </footer>
 </body>
-<!-- JavaScript -->
-<script src='https://code.jquery.com/jquery-3.3.1.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js'></script>
-<script src="js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h355rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
