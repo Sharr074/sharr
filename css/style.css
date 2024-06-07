@@ -14,6 +14,7 @@ h1 {
 
 h2 {
   font-size: 40px !important;
+  line-height: 1.5 !important;
   padding: 60px 0 20px;
 }
 
@@ -31,7 +32,13 @@ p {
 }
 
 a {
-  color: #FFFFFF !important;
+  color: #FFFFFF !important; 
+  text-decoration: underline !important; 
+  font-weight: 500;
+}
+
+a:hover, a:focus {
+  color: #DAA494 !important;
 }
 
 .hidden {
@@ -53,6 +60,7 @@ a {
 a.readmore { 
     color: #FFFFFF !important;
     text-transform: uppercase;
+    text-decoration: none !important;
     background: #DAA494 !important;
     padding: 10px 40px;
     border-radius: 0 !important;
@@ -170,6 +178,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     box-sizing: border-box;
     height: auto;
   }
+
+  .portfolio-text {
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: #ffffff54;
+    margin-top: 40px;
+}
   
   .portfolio-tab ul {
     text-align: center;
@@ -322,13 +337,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   .portfolio .template-btn {
     background: #DAA494;
     border: 1px solid #DAA494;
-    text-decoration: none;
+    text-decoration: none !important;
     margin-top: 20px;
     font-weight: 500;
     padding: 10px 20px;
   }
   .portfolio .template-btn:hover {
     transform: skew(6deg); 
+    color: #FFFFFF !important;
 }
 
 footer { 
@@ -359,7 +375,8 @@ p.footer-text:after {
 
 .powered, .powered p, .powered span { 
   text-align: right; 
-  color: #daa494d7;
+  color: #daa494d7; 
+  font-size: inherit !important;
 }
 
 @media only screen and (min-width: 1000px) { 
@@ -592,15 +609,21 @@ button {
 }
 
 button:hover {
-  background: #DAA494; 
+  background: #DAA494;  
 }
 
 /* Mobile View */
-@media (max-width: 576px) { 
-  .contact .row .col-2 {
-    width: 30% !important;
+@media only screen and (max-width: 800px) { 
+  .contact .row .col-2, 
+  .contact .row .col-10, 
+  .about .col-md-4 {
+    width: 100% !important;
   }
-  .contact .row .col-10 {
-    width: 70% !important;
+  .hidden {
+    display: none !important;
+  }
+  h2 {
+    font-size: 50px !important; 
+    line-height: 1.6 !important;
   }
 }
