@@ -58,6 +58,11 @@ a.readmore:hover {
     transform: skew(6deg); 
 }
 
+.container {
+  max-width: 100%;
+  margin: 0 20px;
+}
+
 .row .col-md-6.intro-pic {
   margin-top: 80px !important;
 }
@@ -232,7 +237,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
       display:none;
       overflow:hidden;
       margin: 10px;
-      min-width: 300px !important;
+      min-width: 300px;
       height: 400px;
   }
   .portfolio-wrapper {
@@ -608,11 +613,19 @@ button:hover {
   .about .col-md-4 {
     width: 100% !important;
   }
+  
   .hidden {
     display: none !important;
   }
+
   h2 {
     font-size: 50px !important; 
     line-height: 1.6 !important;
+  }
+
+  .portfolio-grid .portfolio {
+    min-width: 100% !important;
+    height: 400px;
+    padding: 10px;
   }
 }
