@@ -402,6 +402,10 @@ p.footer-text:after {
     padding-top: 40px !important;
   }
 
+  .portfolio-grid .portfolio {
+    width: 100% !important;
+  }
+  
   .hidden {
     display: none !important;
   }
