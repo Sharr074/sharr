@@ -435,6 +435,9 @@ p.footer-text:after {
   footer p.powered {
     font-size: 30px !important;
   }
+  .col-md-4 { 
+    width: 100% !important;
+  }
 }
 
 /* Experience page */
@@ -605,6 +608,10 @@ button {
 
 button:hover {
   background: #DAA494;  
+}
+
+.hide-visible {
+  visibility: hidden;
 }
 
 /* Mobile View */
