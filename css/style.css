@@ -403,7 +403,8 @@ p.footer-text:after {
     padding-top: 50px !important;
   }
 
-  .portfolio-grid .portfolio {
+  .portfolio-grid .portfolio, 
+  .contact .row .col-2 {
     width: 100% !important;
   }
 
@@ -427,6 +428,7 @@ p.footer-text:after {
   .portfolio-tab ul li, 
   .portfolio .text-category, 
   .portfolio .template-btn, 
+  .contact form label, 
   .footer-text {
     font-size: 40px !important;
   }
