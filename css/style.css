@@ -101,7 +101,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   background: none !important;
 }
 .navbar-brand {
-  font-size: 30px !important;
+  font-size: 45px !important;
 }
 .navbar-toggler {
   background: #FFF !important;
@@ -144,6 +144,10 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 #primary-nav .download-flex li a:hover {
   background: #DAA494;
   color: #FFFFFF !important
+}
+
+span.navbar-toggler-icon {
+  font-size: 40px !important;
 }
 
 /* Portfolio section */
@@ -220,16 +224,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     display: flex;
     flex-wrap: wrap;
   }
-  /* @media (max-width: 768px) {
-    .portfolio-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-  @media only screen and (min-width: 768.1px) and (max-width: 991px) {
-    .portfolio-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }		
-    } */
   .portfolio-grid .portfolio {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -373,9 +367,6 @@ p.footer-text:after {
 }
 
 @media only screen and (min-width: 1000px) { 
-  .navbar-brand {
-    display: none !important;
-  }
   .intro-box {
     display: table !important;
   }
@@ -393,7 +384,7 @@ p.footer-text:after {
     font-size: 18px !important;
   }
   .navbar-brand {
-    font-size: 30px !important;
+    font-size: 45px !important;
   }
   li.nav-item {
       padding: 10px 0;
@@ -613,7 +604,7 @@ button:hover {
   .about .col-md-4 {
     width: 100% !important;
   }
-  
+
   .hidden {
     display: none !important;
   }
