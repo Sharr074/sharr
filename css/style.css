@@ -381,7 +381,7 @@ p.footer-text:after {
 
 @media only screen and (max-width: 999px) { 
   p,ul,li,a,span {
-    font-size: 18px !important;
+    font-size: 40px !important;
   }
   .navbar-brand {
     font-size: 45px !important;
@@ -405,7 +405,7 @@ p.footer-text:after {
   .portfolio-grid .portfolio {
     width: 100% !important;
   }
-  
+
   .hidden {
     display: none !important;
   }
