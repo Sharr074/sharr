@@ -223,6 +223,7 @@ span.navbar-toggler-icon {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .portfolio-grid .portfolio {
       -webkit-box-sizing: border-box;
