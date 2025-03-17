@@ -434,10 +434,12 @@ p.footer-text:after {
     width: 100% !important;
   }
 
-  h2 {
+  h2, 
+  .experience-text span {
     font-size: 50px !important; 
     line-height: 1.6 !important;
   }
+
   .label-text h3 {
     font-size: 50px !important;
   }
