@@ -405,7 +405,8 @@ p.footer-text:after {
 
   .portfolio-grid .portfolio, 
   .about .col-md-4, 
-  .contact .row .col-2 {
+  .contact .row .col-2, 
+  .contact .row .col-10 {
     width: 100% !important;
   }
 
