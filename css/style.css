@@ -402,6 +402,10 @@ p.footer-text:after {
     padding-top: 60px;
   }
 
+  .hidden {
+    display: none !important;
+  }
+
   .intro-box .col-md-6 { 
     display: block;
     width: 100% !important;
