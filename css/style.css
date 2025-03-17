@@ -96,11 +96,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   background: none !important;
 }
 .navbar-brand {
-  font-size: 2rem !important;
+  font-size: 40px !important;
 }
 .navbar-toggler {
   background: #FFF !important;
-  font-size: 2rem !important;
+  font-size: 40px !important;
 }
 #primary-nav {
   width: 100%;
@@ -384,10 +384,10 @@ p.footer-text:after {
 
 @media only screen and (max-width: 999px) { 
   p,ul,li,a,span {
-    font-size: 2.5rem !important;
+    font-size: 18px !important;
   }
   .navbar-brand {
-    font-size: 3rem !important;
+    font-size: 40px !important;
   }
   li.nav-item {
       padding: 10px 0;
@@ -420,16 +420,16 @@ p.footer-text:after {
   .portfolio .text-category, 
   .portfolio .template-btn, 
   .footer-text {
-    font-size: 2.5rem !important;
+    font-size: 18px !important;
   }
   .label-text h3 {
-    font-size: 3rem !important;
+    font-size: 22px !important;
   }
   .portfolio .template-btn {
     padding: 15px 100px !important;
   }
   footer p.powered {
-    font-size: 2rem !important;
+    font-size: 18px !important;
   }
 }
 
