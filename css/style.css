@@ -150,6 +150,10 @@ span.navbar-toggler-icon {
   font-size: 40px !important;
 }
 
+.content-top {
+  padding-top: 40px;
+}
+
 /* Portfolio section */
 .template-btn {
     color: white;
@@ -399,8 +403,8 @@ p.footer-text:after {
   #primary-nav ~ .container {
     padding-top: 60px;
   }
-  .mobile-top {
-    padding-top: 50px !important;
+  .content-top {
+    padding-top: 60px !important;
   }
 
   .portfolio-grid .portfolio, 
