@@ -398,6 +398,9 @@ p.footer-text:after {
   #primary-nav ~ .container {
     padding-top: 60px;
   }
+  .mobile-top {
+    padding-top: 40px !important;
+  }
 
   .hidden {
     display: none !important;
@@ -607,10 +610,6 @@ button:hover {
   .about .col-md-4, 
   .portfolio-grid .portfolio {
     width: 100% !important;
-  }
-
-  .mobile-top {
-    padding-top: 40px !important;
   }
 
   .hidden {
