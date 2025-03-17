@@ -381,7 +381,7 @@ p.footer-text:after {
 }
 
 @media only screen and (max-width: 999px) { 
-  p,ul,li,a,span {
+  p,ul,li,a,span,button {
     font-size: 40px !important;
   }
   .navbar-brand {
