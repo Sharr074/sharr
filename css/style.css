@@ -429,14 +429,19 @@ p.footer-text:after {
   .footer-text {
     font-size: 40px !important;
   }
+  .col-md-4 { 
+    width: 100% !important;
+  }
+
+  h2 {
+    font-size: 50px !important; 
+    line-height: 1.6 !important;
+  }
   .label-text h3 {
     font-size: 50px !important;
   }
   footer p.powered {
     font-size: 30px !important;
-  }
-  .col-md-4 { 
-    width: 100% !important;
   }
 }
 
