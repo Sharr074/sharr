@@ -59,8 +59,8 @@ a.readmore:hover {
 }
 
 .container {
-  max-width: 100%;
-  margin: 0 20px;
+  max-width: 100% !important;
+  margin: 0 40px !important;
 }
 
 .row .col-md-6.intro-pic {
