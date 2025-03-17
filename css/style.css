@@ -427,13 +427,13 @@ p.footer-text:after {
   .portfolio .text-category, 
   .portfolio .template-btn, 
   .footer-text {
-    font-size: 18px !important;
+    font-size: 40px !important;
   }
   .label-text h3 {
-    font-size: 22px !important;
+    font-size: 50px !important;
   }
   footer p.powered {
-    font-size: 18px !important;
+    font-size: 30px !important;
   }
 }
 
